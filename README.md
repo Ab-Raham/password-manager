@@ -1,18 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kDZuZY56)
-
-# Group 14
 # Project: Password Manager
 
-Group Members:
-1. Thembo Bernard
-2. Patricia Okoboi
-3. Ddembe Lincoln
-4. Nanyonga Olivia
-5. Mukhwana Abraham
-
-
 ## Overview
-The Password Manager is a secure and user-friendly application that helps you manage your passwords efficiently. It includes features such as password generation, secure storage, encryption, and automatic locking on inactivity.
+The Password Manager is a secure and user-friendly widget application that helps you manage your passwords locally and efficiently. It includes features such as password generation, secure storage, encryption, and automatic locking on inactivity.
 
 ## Features
 - **Master Login**: Secure access to the application with a master password.
@@ -22,10 +11,15 @@ The Password Manager is a secure and user-friendly application that helps you ma
 - **Encrypted Storage**: Ensures all passwords are securely encrypted.
 
 ## Prerequisites
-- **Operating System**: Debian 12
+- **Operating System**: Developed on Debian 12
 - **Libraries**: OpenSSL
 
-## Setup Instructions
+
+## Development instructions
+Contributions to development are highly welcome. A proper documentation is still being prepared.
+The app is still in active development and is still buggy.
+
+## Setup and usage Instructions
 
 ### Building the Application
 1. Clone the repository:
@@ -90,9 +84,4 @@ The Password Manager is a secure and user-friendly application that helps you ma
 - **Encryption**: Uses AES-256 encryption to securely store passwords.
 - **Auto-Lock**: Automatically locks the application after 30 seconds of inactivity to prevent unauthorized access.
 
-## Additional Notes
-- **Code Comments**: Ensure that your code is well-commented to explain the logic and flow, especially in complex sections like encryption and password management.
-- **Error Handling**: Implement robust error handling to manage scenarios such as incorrect master password entry, failed encryption, or file read/write errors.
-- **Testing**: Include unit tests for critical components like encryption and password management to ensure reliability and security.
-- **Documentation**: Provide inline documentation and a separate detailed document if necessary to explain the architecture, design decisions, and any third-party libraries used.
-
+Developer contact:
